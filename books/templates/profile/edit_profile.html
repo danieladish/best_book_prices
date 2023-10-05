@@ -1,0 +1,26 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Edit Profile</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'edit_profile_styles.css' %}">
+
+</head>
+<body>
+    <h1>Edit Profile</h1>
+    <form method="post">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit">Save Profile Changes</button>
+    </form>
+
+    <h1>Change Password</h1>
+    <form method="post">
+        {% csrf_token %}
+        {{ password_change_form.as_p }}
+        <button type="submit">Change Password</button>
+    </form>
+
+    <a href="{% url 'home' %}">Back to Home</a>
+</body>
+</html>

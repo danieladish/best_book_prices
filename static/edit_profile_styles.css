@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff3e0; /* Light pastel orange */
+    color: #333; /* Dark gray */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    color: #ff5722; /* Deep orange */
+    font-size: 36px; /* Larger font size */
+    margin-bottom: 20px; /* Add some spacing below the title */
+}
+
+form {
+    width: 80%;
+    border: 2px solid #ff5722; /* Deep orange */
+    background-color: #ffe0b2; /* Pastel yellow */
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+form button[type="submit"]:hover {
+    background-color: #d84315; /* Darker deep orange */
+}
+
+/* Links */
+a {
+    text-decoration: none;
+    color: #ff5722; /* Deep orange */
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #d84315; /* Darker deep orange */
+}

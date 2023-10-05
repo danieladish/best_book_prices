@@ -1,0 +1,14 @@
+Hello {{ username }},
+
+Here are your favorite books:
+
+{% for book in favorites_list %}
+Title: {{ book.title }}
+Author: {{ book.author }}
+Price: {{ book.price }}
+Link: {{ book.link }}
+
+{% endfor %}
+
+Best regards,
+The Best Book Prices Team

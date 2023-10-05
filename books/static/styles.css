@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff3e0; /* Light pastel orange */
+    color: #333; /* Dark gray */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    color: #ff5722; /* Deep orange */
+}
+
+/* Favorite Books Section */
+.favorites-list {
+    border: 2px solid #ff5722; /* Deep orange */
+    background-color: #ffe0b2; /* Pastel yellow */
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    width: 80%;
+    box-sizing: border-box;
+}
+
+/* Search Results Section */
+.search-results {
+    border: 2px solid #ff5722; /* Deep orange */
+    background-color: #ffe0b2; /* Pastel yellow */
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    width: 80%;
+    box-sizing: border-box;
+}
+
+input[type="text"]{
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #ff5722; /* Deep orange */
+    border-radius: 5px;
+    background-color:  #fff3e0; /* Light pastel orange */
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    font-size: 16px; /* Larger font size */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+th, td {
+    padding: 10px;
+    border-bottom: 1px solid #ff9800; /* Orange */
+    text-align: left;
+}
+
+th {
+    background-color: #ffb74d; /* Amber */
+}
+
+/* Button */
+button {
+    background-color: #ff9800; /* Orange */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Email Message */
+#email-message {
+    margin-top: 10px;
+}
+
+/* Links */
+a {
+    text-decoration: none;
+    color: #ff5722; /* Deep orange */
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #d84315; /* Darker deep orange */
+}
+
+button:hover {
+    background-color: #d84315; /* Darker deep orange */
+}
